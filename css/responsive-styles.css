@@ -58,9 +58,9 @@ Responsive 760px
 	}
 
 	input:focus {
-	  color      : #ddd;
-	  background : #2d3945;
-	  outline    : none;
+		color      : #ddd;
+		background : #2d3945;
+		outline    : none;
 	}
 
 	.contact-info label {
