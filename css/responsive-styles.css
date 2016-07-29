@@ -19,7 +19,7 @@ Responsive 760px
 	}
 
 	form {
-		max-width: 80%;
+		max-width: 620px;
 		background: #eee;
 		border-radius: 0;
 	}
@@ -57,47 +57,13 @@ Responsive 760px
 		font-size: 1em;
 	}
 
+	input:focus {
+	  color      : #ddd;
+	  background : #2d3945;
+	  outline    : none;
+	}
+
 	.contact-info label {
 		width: 150px;
 	}
-}
-
-
-/**********************
-Responsive 1024px
-**********************/
-
-
-@media screen and (min-width: 1024px) {
-	form{
-		clear: both;
-	}
-
-	#state,
-	.contact-info input {
-		max-width: 65%;
-	}
-
-	.contact-info {
-		overflow: auto;
-		float: left;
-		width: 70%;
-	}
-
-	.newsletter {
-		float: right;
-		width: 30%;
-	}
-
-	input:focus {
-		background: #2d3945;
-		color: #ddd;
-		outline: none;
-	}
-
-	button {
-		max-width: 75%;
-		margin-top: 40px;
-	}
-
 }
