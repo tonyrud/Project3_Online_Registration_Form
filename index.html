@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 Table</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive-styles.css">
+</head>
+
+<body>
+    <div class="top-header">
+        <h1>The Code Review</h1>
+    </div>
+    <form action="index.html" method="post">
+        <header>
+
+            <h1 class="signup">Signup for our newsletter</h1>
+            <p class="news">Get the latest news on how your code is doing right in your inbox</p>
+            <div class="thick line"></div>
+            <div class="thin line"></div>
+        </header>
+
+        <fieldset class="contact-info">
+            <legend class="section-label">Contact Information</legend>
+            <div class="first-div">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="user_name" placeholder="Required">
+            </div>
+            <div>
+                <label for="mail">Email Address</label>
+                <input type="email" id="mail" name="user_email" placeholder="Required">
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="user_phone">
+            </div>
+            <div>
+                <label for="address">Street Address</label>
+                <input type="text" id="address" name="user_address">
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input type="text" id="city" name="user_city">
+            </div>
+            <div>
+                <label for="state">State</label>
+                <select id="state" name="user_state">
+                    <option id="intial-select" value="" disabled selected hidden>Choose State</option>
+                    <option value="state_in">Indiana</option>
+                    <option value="state_oh">Ohio</option>
+                    <option value="state_il">Illinois</option>
+                    <option value="state_mi">Michigan</option>
+                    <option value="state_ky">Kentucky</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" name="user_zip" placeholder="Required">
+            </div>
+
+        </fieldset>
+
+        <!-- <div class="thin line"></div> -->
+
+        <fieldset class="newsletter">
+            <legend class="section-label">Newsletter</legend>
+            <p>Select the newsletters you would like to recieve</p>
+
+            <div class="checkboxes">
+                <input type="checkbox" id="htmlnews" value="interest_htmlnews" name="user_interest">
+                <label for="htmlnews">HTML News</label>
+            </div>
+            <div class="checkboxes">
+                <input type="checkbox" id="cssnews" value="interest_cssnews" name="user_interest">
+                <label for="cssnews">CSS News</label>
+            </div>
+            <div class="checkboxes">
+                <input type="checkbox" id="javascriptnews" value="interest_javascriptnews" name="user_interest">
+                <label for="javascriptnews">Javascript News</label>
+            </div>
+            <div class="checkboxes">
+                <input type="checkbox" id="phpcriptnews" value="interest_phpscriptnews" name="user_interest">
+                <label for="javascriptnews">PHP News</label>
+            </div>
+
+            <p>Newsletter format</p>
+            <div class="radioboxes">
+                <input type="radio" id="formathtml" value="interest_formathtml" name="user_interest">
+                <label for="formathtml">HTML</label>
+            </div>
+            <div class="radioboxes">
+                <input type="radio" id="formatplain" value="interest_formatplain" name="user_interest">
+                <label for="formatplain">Plain Text</label>
+            </div>
+            <div class="radioboxes">
+                <input type="radio" id="formatpdf" value="interest_formatpdf" name="user_interest">
+                <label for="formatpdf">PDF</label>
+            </div>
+
+            <label for="topics">Other topics you'd like to hear about</label>
+            <textarea id="topics" name="user_topics"></textarea>
+
+        </fieldset>
+        <div class="btn-div">
+            <button type="submit">Sign Up</button>
+
+            <p>Copyright the code review</p>
+        </div>
+    </form>
+
+</body>
+
+</html>
